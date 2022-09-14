@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: antiquewhite;
+
+  width: 100%;
+  height: 70vh;
+}
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: red;
+
+  width: 48%;
+  height: 100%;
+}
+
+.servicios span {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.containerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(235, 102, 102);
+
+  width: 48%;
+  height: 100%;
+}
+
+.divImg {
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+
+  background-color: blueviolet;
+
+  width: 40%;
+  height: 60%;
+}
