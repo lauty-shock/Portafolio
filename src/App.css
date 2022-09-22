@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  background: black;
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e5383b;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
 :root {
   /* background-color: #161a1d; */
   background-color: #fff;
