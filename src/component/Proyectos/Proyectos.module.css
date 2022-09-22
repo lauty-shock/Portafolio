@@ -12,3 +12,17 @@
 .Proyectos h1 {
   font-size: 3rem;
 }
+
+.containerProyectos{
+    display: flex;
+    gap: 5rem;
+}
+
+.card{
+    border: 2px solid rgb(255, 100, 100);
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px red, 0 0 45px red;
+
+    width: 400px;
+    height: 500px;
+}
