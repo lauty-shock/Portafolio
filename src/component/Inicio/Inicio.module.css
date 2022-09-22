@@ -2,26 +2,36 @@
 
 .container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: black;
+
+  color: white;
+
+  width: 100%;
+  height: 93vh;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.border {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
   position: relative;
 
-  background: rgb(164, 22, 26);
-  background: linear-gradient(
-    135deg,
-    rgba(164, 22, 26, 1) 0%,
-    rgba(229, 56, 59, 1) 51%,
-    rgba(211, 211, 211, 1) 100%
-  );
+  border: 2px solid rgb(255, 100, 100);
+  border-radius: 10px;
+  box-shadow: inset 0 0 15px red, 0 0 45px red;
 
-  color: white;
+  width: 60%;
+  height: 70%;
 
-  width: 100%;
-  height: 60vh;
-
-  font-family: "Roboto", sans-serif;
+  margin-bottom: 4%;
 }
 
 .containerName {
@@ -44,18 +54,67 @@
   position: absolute;
   bottom: 10%;
 
-  background-color: #d3d3d3;
-  border-radius: 15px;
-  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 100, 100);
 
-  width: 10%;
-  height: 4vh;
+  box-shadow: inset 0 0 5px rgb(255, 0, 0), 0 0 15px rgb(255, 0, 0);
+
+  width: 130px;
+  height: 33px;
 
   cursor: pointer;
 }
 
 .btn:hover {
-  -webkit-box-shadow: 0px 0px 48px 5px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 0px 0px 48px 5px rgba(0, 0, 0, 0.7);
-  box-shadow: 0px 0px 48px 5px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: inset 0 0 7px rgb(100, 100, 100), 0 0 15px rgb(100, 100, 100);
+}
+
+.contac {
+  display: flex;
+  position: relative;
+  gap: 2rem;
+}
+
+.btnContac {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+
+  color: white;
+  font-size: 3rem;
+
+  padding: 0.5rem;
+
+  cursor: pointer;
+}
+
+.btnContac:hover:nth-child(1) {
+  color: blueviolet;
+  border: 2px solid rgb(144, 70, 214);
+  box-shadow: inset 0 0 5px blueviolet, 0 0 10px blueviolet;
+}
+
+.btnContac:hover:nth-child(2) {
+  color: green;
+  border: 2px solid rgb(49, 122, 49);
+  box-shadow: inset 0 0 5px green, 0 0 10px green;
+}
+
+.btnContac:hover:nth-child(3) {
+  color: rgb(40, 103, 178);
+  border: 2px solid rgb(64, 114, 175);
+  box-shadow: inset 0 0 5px rgb(40, 103, 178), 0 0 10px rgb(40, 103, 178);
+}
+
+.btnContac:hover:nth-child(4) {
+  color: orangered;
+  border: 2px solid rgb(255, 122, 74);
+  box-shadow: inset 0 0 5px orangered, 0 0 10px orangered;
 }

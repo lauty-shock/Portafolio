@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Roboto&display=swap");
+
 .Navbar {
   height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #0b090a;
+  background: black;
+
+  font-family: "Roboto", sans-serif;
 
   padding: 0 15px;
 }
@@ -32,6 +36,8 @@
   height: 2px;
   background: #e5383b;
   transition: all 0.45s;
+
+  box-shadow: 0 2px 5px red;
 }
 
 .Navbar > .nav-items > a:hover::before {
@@ -54,7 +60,9 @@
     top: 60px;
     left: 0;
 
-    background: #0b090a;
+    z-index: 10;
+
+    background: black;
 
     width: 100%;
     height: 100%;
