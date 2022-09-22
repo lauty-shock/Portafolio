@@ -9,10 +9,9 @@ export default function Nav() {
       <img className="nav-logo" src={logo} alt="Logo" />
 
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre mi</a>
-        <a href="#">Conocimientos</a>
-        <a href="#">Proyectos</a>
+        <a href="#Inicio">Inicio</a>
+        <a href="#About">Sobre mi</a>
+        <a href="#Proyectos">Proyectos</a>
         <a href="#">Contacto</a>
       </div>
       <div

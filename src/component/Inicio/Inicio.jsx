@@ -14,7 +14,7 @@ export default function Inicio() {
     loop: 0,
   });
   return (
-    <div className={css.container}>
+    <div id="Inicio" className={css.container}>
       <section className={css.border}>
         <section className={css.containerName}>
           <span className={css.name}>Lautaro Perez</span>
@@ -23,7 +23,7 @@ export default function Inicio() {
             <Cursor />
           </span>
         </section>
-        <button className={css.btn}>Más sobre mi</button>
+        <button className={css.btn}><a href="#About">Más sobre mi</a></button>
       </section>
       <section className={css.contac}>
         <button className={css.btnContac}>
