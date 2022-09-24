@@ -11,8 +11,10 @@ import bootstrap from "../../../img/bootstrap.svg";
 
 import express from "../../../img/express.svg";
 import nodejs from "../../../img/nodejs.svg";
+import sequelize from "../../../img/sequelize.svg";
 
 import git from "../../../img/git.svg";
+import thunder from "../../../img/thunder.png";
 
 export default function About() {
   return (
@@ -101,6 +103,10 @@ export default function About() {
               <img className={css.tecnologyImg} src={nodejs} alt="Node Js" />
               <h5>Node Js</h5>
             </div>
+            <div className={css.tecnology}>
+              <img className={css.tecnologyImg} src={sequelize} alt="Sequelize" />
+              <h5>Sequelize</h5>
+            </div>
           </section>
 
           <span className={css.text4}>Herramientas</span>
@@ -108,6 +114,11 @@ export default function About() {
             <div className={css.tecnology}>
               <img className={css.tecnologyImg} src={git} alt="Git" />
               <h5>Git</h5>
+            </div>
+            
+            <div className={css.tecnology}>
+              <img className={css.tecnologyImg} src={thunder} alt="Thunder client" />
+              <h5>Thunder client</h5>
             </div>
           </section>
         </div>
