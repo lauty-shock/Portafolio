@@ -14,7 +14,7 @@
   font-size: 3rem;
 }
 
-.conatiner {
+.container {
   display: flex;
   justify-content: space-around;
 
@@ -22,7 +22,10 @@
   height: 100%;
 }
 
-.conatinerMe {
+.containerMe {
+  display: flex;
+  flex-direction: column;
+
   border: 2px solid rgb(255, 100, 100);
   border-radius: 10px;
   box-shadow: inset 0 0 15px red, 0 0 45px red;
@@ -30,10 +33,55 @@
   width: 42%;
   height: 90%;
 
-  padding: 1rem;
+  padding: 2rem;
+  gap: 2.2rem;
 }
 
-.conatinerSkill {
+.QuienSoy {
+  font-size: 1.2rem;
+  color: aqua;
+}
+
+.text1 {
+  font-size: 1.7rem;
+}
+
+.text2 {
+  color: rgb(127, 127, 127);
+}
+
+.text3 {
+  color: rgb(127, 127, 127);
+}
+
+.text3 span {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.cv {
+  background-color: transparent;
+  color: white;
+
+  border: 1px solid rgb(255, 100, 100);
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgb(255, 0, 0), 0 0 15px rgb(255, 0, 0);
+
+  width: 30%;
+  height: 4vh;
+
+  margin-top: auto;
+  margin-bottom: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv:hover {
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: inset 0 0 5px rgb(100, 100, 100), 0 0 15px rgb(100, 100, 100);
+}
+
+.containerSkill {
   border: 2px solid rgb(255, 100, 100);
   border-radius: 10px;
   box-shadow: inset 0 0 15px red, 0 0 45px red;
