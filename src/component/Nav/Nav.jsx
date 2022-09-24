@@ -12,7 +12,7 @@ export default function Nav() {
         <a href="#Inicio">Inicio</a>
         <a href="#About">Sobre mí</a>
         <a href="#Proyectos">Proyectos</a>
-        <a href="#">Contacto</a>
+        <a href="#Contacto">Contacto</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

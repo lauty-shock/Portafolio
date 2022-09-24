@@ -63,6 +63,8 @@
   height: 33px;
 
   cursor: pointer;
+
+  transition: all 0.3s;
 }
 
 .btn a {
@@ -96,6 +98,7 @@
   padding: 0.5rem;
 
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 .btnContac:hover:nth-child(1) {

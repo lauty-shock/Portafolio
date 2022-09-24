@@ -23,21 +23,39 @@ export default function Inicio() {
             <Cursor />
           </span>
         </section>
-        <button className={css.btn}><a href="#About">Más sobre mi</a></button>
+        <button className={css.btn}>
+          <a href="#About">Más sobre mi</a>
+        </button>
       </section>
       <section className={css.contac}>
-        <button className={css.btnContac}>
+        <a
+          className={css.btnContac}
+          href="https://github.com/lauty-shock"
+          target="_blank"
+        >
           <BsGithub />
-        </button>
-        <button className={css.btnContac}>
+        </a>
+        <a
+          className={css.btnContac}
+          href="https://api.whatsapp.com/send?phone=+543517468699&text=Hola%20Lautaro!%20vi%20tu%20portfolio.."
+          target="_blank"
+        >
           <BsWhatsapp />
-        </button>
-        <button className={css.btnContac}>
+        </a>
+        <a
+          className={css.btnContac}
+          href="https://www.linkedin.com/in/lautaroperez135/"
+          target="_blank"
+        >
           <BsLinkedin />
-        </button>
-        <button className={css.btnContac}>
+        </a>
+        <a
+          className={css.btnContac}
+          href="mailto:lautaroperez135@gmail.com"
+          target="_blank"
+        >
           <BsFillEnvelopeFill />
-        </button>
+        </a>
       </section>
     </div>
   );

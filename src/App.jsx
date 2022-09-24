@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./component/About/About";
+import Contact from "./component/Contact/Contact";
 import Inicio from "./component/Inicio/Inicio";
 import Nav from "./component/Nav/Nav";
 import Proyectos from "./component/Proyectos/Proyectos";
@@ -11,6 +12,7 @@ export default function App() {
       <Inicio />
       <About />
       <Proyectos />
+      <Contact />
     </div>
   );
 }
