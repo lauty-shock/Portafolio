@@ -42,6 +42,7 @@
 
 .name {
   font-size: 4rem;
+  -webkit-text-stroke: 2px rgb(87, 87, 87);
 }
 
 .servicios {

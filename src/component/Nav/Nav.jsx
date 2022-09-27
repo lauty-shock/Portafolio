@@ -6,7 +6,8 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
-      <img className="nav-logo" src={logo} alt="Logo" />
+      {/* <img className="nav-logo" src={logo} alt="Logo" /> */}
+      <span className="nav-logo">SHOCK</span>
 
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="#Inicio">Inicio</a>
