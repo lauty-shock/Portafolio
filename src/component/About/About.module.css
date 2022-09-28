@@ -99,7 +99,7 @@
   height: 97%;
 
   padding: 2rem;
-  gap: 2.2rem;
+  gap: 1rem;
 }
 
 .skills {
@@ -113,20 +113,40 @@
 .tecnology {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 
-  width: 15%;
+  width: 4vw;
+  height: 6vw;
+  padding: 1rem 0;
 
-  transition: all 0.3s;
+  transition: all 0.3s ease;
 }
 
 .tecnologyImg {
-  width: 70%;
+  width: 100%;
+  height: 80%;
 
   transition: all 0.3s;
 }
 
 .tecnology:hover {
   transform: scale(1.1);
+}
+
+.tecnology h5 {
+  opacity: 0;
+  transition: all 0.5s;
+
+  text-align: center;
+
+  background-color: rgb(196, 196, 196);
+  color: black;
+  border-radius: 3px;
+
+  width: 80%;
+}
+
+.tecnology:hover h5 {
+  opacity: 1;
+  transform: translateY(-90px);
 }

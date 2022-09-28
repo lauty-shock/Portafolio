@@ -9,7 +9,7 @@ import react from "../../../img/react.svg";
 import redux from "../../../img/redux.svg";
 import bootstrap from "../../../img/bootstrap.svg";
 
-import express from "../../../img/express.svg";
+import express from "../../../img/express-original.svg";
 import nodejs from "../../../img/nodejs.svg";
 import sequelize from "../../../img/sequelize.svg";
 
