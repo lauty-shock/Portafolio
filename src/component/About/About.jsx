@@ -24,7 +24,7 @@ export default function About() {
         <div className={css.containerMe}>
           <span className={css.title}>¿Quién soy?</span>
           <span className={css.text1}>
-            ¡Hola Mundo! Mi nombre es Lautaro Perez y soy full stack developer
+            ¡Hola Mundo! Mi nombre es Lautaro Perez y soy FullStack developer
           </span>
 
           <span className={css.text2}>

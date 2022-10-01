@@ -27,6 +27,7 @@
   width: 60%;
   height: 70%;
 
+  padding: 1rem;
   margin-top: 10.5vh;
   margin-bottom: 4%;
 }
@@ -150,8 +151,26 @@
   }
 }
 
+@media (max-width: 420px) {
+  .name {
+    font-size: 3rem;
+  }
+  .servicios {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 440px) {
   .contac {
     gap: 1rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .servicios {
+    font-size: 1.5rem;
   }
 }
