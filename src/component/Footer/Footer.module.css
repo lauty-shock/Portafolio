@@ -23,7 +23,31 @@
   gap: 1rem;
 }
 
-.btnContac{
-    font-size: 2rem;
-    color: white;
+.btnContac {
+  font-size: 2rem;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+  .btnContac {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .btnContac {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .contac {
+    display: flex;
+  
+    gap: .5rem;
+  }
 }

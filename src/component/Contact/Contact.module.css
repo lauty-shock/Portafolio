@@ -66,3 +66,21 @@
 .box textarea:focus {
   outline: none;
 }
+
+@media (max-width: 540px) {
+  .box {
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .box {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 340px) {
+  .box {
+    min-width: 250px;
+  }
+}
