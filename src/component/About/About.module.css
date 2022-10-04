@@ -79,6 +79,11 @@
 }
 
 .cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
   background-color: transparent;
   color: white;
 
@@ -130,11 +135,17 @@
   margin-left: auto;
   margin-right: auto;
 
-  transition: all 0.3s;
+  transition: all .5s;
+
+  filter: grayscale(100%);
 }
 
 .tecnology:hover {
   transform: scale(1.1);
+}
+
+.tecnology:hover .tecnologyImg{
+  filter: grayscale(0%);
 }
 
 .tecnology h5 {

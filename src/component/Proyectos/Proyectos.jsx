@@ -2,6 +2,8 @@ import React from "react";
 
 import css from "./Proyectos.module.css";
 
+import { BsGithub, BsBoxArrowUpRight } from "react-icons/bs";
+
 import StarCards from "../../../img/StarCards.png";
 import Food from "../../../img/Food.png";
 import Proximamente from "../../../img/Proximamente.jpg";
@@ -13,7 +15,32 @@ export default function Proyectos() {
 
       <div className={css.containerProyectos}>
         <div className={css.card}>
-          <img className={css.img} src={StarCards} />
+          <section className={css.cardTop}>
+            <img className={css.img} src={StarCards} />
+            <div className={css.hover}>
+              <section className={css.deploy}>
+                <a href=""></a>
+                <BsBoxArrowUpRight />
+                <a href="">
+                  <BsGithub />
+                </a>
+              </section>
+              <section className={css.tecnology}>
+                <span>React</span>
+                <span>Redux</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>NodeJs</span>
+                <span>Sequelize</span>
+                <span>PostgreSQL</span>
+                <span>Express</span>
+                <span>Socket.io</span>
+                <span>Passport</span>
+                <span>Firebase</span>
+                <span>+More</span>
+              </section>
+            </div>
+          </section>
           <section>
             <span className={css.title}>Starcards</span>
             <span className={css.text}>

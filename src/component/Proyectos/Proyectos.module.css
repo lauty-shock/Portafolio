@@ -40,12 +40,35 @@
   flex-direction: column;
 }
 
+.cardTop {
+  position: relative;
+  height: 40%;
+}
+
 .img {
   border-radius: 7px 7px 0 0;
   object-fit: cover;
 
   width: 100%;
-  height: 40%;
+  height: 100%;
+}
+
+.hover {
+  position: absolute;
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.tecnology {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: red;
+}
+
+.tecnology span {
+  background-color: aqua;
+  width: 100px;
 }
 
 .title {

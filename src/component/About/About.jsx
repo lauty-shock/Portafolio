@@ -47,7 +47,13 @@ export default function About() {
             <span>Desde:</span> Córdoba, Argentina
           </span>
 
-          <button className={css.cv}>Descargar CV</button>
+          <a
+            className={css.cv}
+            href="../../../public/CV-Lautaro-Perez.pdf"
+            download
+          >
+            Descargar CV
+          </a>
         </div>
 
         <div className={css.containerMe}>
@@ -104,7 +110,11 @@ export default function About() {
               <h5>Node Js</h5>
             </div>
             <div className={css.tecnology}>
-              <img className={css.tecnologyImg} src={sequelize} alt="Sequelize" />
+              <img
+                className={css.tecnologyImg}
+                src={sequelize}
+                alt="Sequelize"
+              />
               <h5>Sequelize</h5>
             </div>
           </section>
@@ -115,9 +125,13 @@ export default function About() {
               <img className={css.tecnologyImg} src={git} alt="Git" />
               <h5>Git</h5>
             </div>
-            
+
             <div className={css.tecnology}>
-              <img className={css.tecnologyImg} src={thunder} alt="Thunder client" />
+              <img
+                className={css.tecnologyImg}
+                src={thunder}
+                alt="Thunder client"
+              />
               <h5>Thunder client</h5>
             </div>
           </section>
