@@ -50,7 +50,7 @@ export default function About() {
           <button className={css.cv}>Descargar CV</button>
         </div>
 
-        <div className={css.containerSkill}>
+        <div className={css.containerMe}>
           <span className={css.title}>Skills</span>
           <span className={css.text4}>Front-End</span>
           <section className={css.skills}>

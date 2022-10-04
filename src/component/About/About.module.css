@@ -1,12 +1,19 @@
+.prueba {
+  width: 100%;
+  height: 200vh;
+
+  background-color: rgb(117, 148, 148);
+}
+
 .About {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  width: 100%;
-  height: 100vh;
-
   color: white;
+
+  width: 100%;
+  min-height: 100vh;
 }
 
 .About h1 {
@@ -31,10 +38,18 @@
   box-shadow: inset 0 0 15px red, 0 0 45px red;
 
   width: 42%;
-  height: 97%;
+  min-height: 60vh;
+  max-height: 200vh;
 
   padding: 2rem;
+}
+
+.containerMe:nth-child(1) {
   gap: 2.2rem;
+}
+
+.containerMe:nth-child(2) {
+  gap: 1rem;
 }
 
 .title {
@@ -71,8 +86,8 @@
   border-radius: 10px;
   box-shadow: inset 0 0 5px rgb(255, 0, 0), 0 0 15px rgb(255, 0, 0);
 
-  width: 30%;
-  height: 4vh;
+  width: 150px;
+  height: 30px;
 
   margin-top: auto;
   margin-bottom: 2vh;
@@ -87,25 +102,9 @@
   box-shadow: inset 0 0 5px rgb(100, 100, 100), 0 0 15px rgb(100, 100, 100);
 }
 
-.containerSkill {
-  display: flex;
-  flex-direction: column;
-
-  border: 2px solid rgb(255, 100, 100);
-  border-radius: 10px;
-  box-shadow: inset 0 0 15px red, 0 0 45px red;
-
-  width: 42%;
-  height: 97%;
-
-  padding: 2rem;
-  gap: 1rem;
-}
-
 .skills {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
 
   gap: 0.84rem;
 }
@@ -114,17 +113,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 
-  width: 15%;
-  height: 6vw;
-  padding: .5rem 0;
+  width: 100px;
+  height: 100px;
+  padding: 0.5rem 0;
 
   transition: all 0.3s ease;
 }
 
 .tecnologyImg {
-  width: 4vw;
-  height: 80%;
+  width: 80px;
+  height: 80px;
+  margin: 0.5rem 3rem;
 
   margin-left: auto;
   margin-right: auto;
@@ -137,12 +138,13 @@
 }
 
 .tecnology h5 {
+  position: absolute;
   opacity: 0;
-  transition: all 0.6s;
+  transition: all 0.5s;
 
   text-align: center;
 
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(170, 170, 170);
   color: black;
   border-radius: 3px;
 
@@ -151,5 +153,33 @@
 
 .tecnology:hover h5 {
   opacity: 1;
-  transform: translateY(-90px);
+  transform: translateY(-50px);
+}
+
+@media (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    gap: 3rem;
+  }
+
+  .containerMe {
+    display: flex;
+    flex-direction: column;
+  
+    border: 2px solid rgb(255, 100, 100);
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px red, 0 0 45px red;
+  
+    width: 98%;
+    min-height: 80vh;
+    /* max-height: 200vh; */
+  
+    padding: 2rem;
+  }
 }

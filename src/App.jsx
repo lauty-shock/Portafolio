@@ -8,13 +8,13 @@ import Proyectos from "./component/Proyectos/Proyectos";
 
 export default function App() {
   return (
-    <div className="App">
+    <div>
       <Nav />
       <Inicio />
       <About />
       <Proyectos />
-      <Contact />
-      <Footer />
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
