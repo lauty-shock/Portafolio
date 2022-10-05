@@ -9,12 +9,14 @@ import react from "../../../img/react.svg";
 import redux from "../../../img/redux.svg";
 import bootstrap from "../../../img/bootstrap.svg";
 
-import express from "../../../img/express-original.svg";
-import nodejs from "../../../img/nodejs.svg";
-import sequelize from "../../../img/sequelize.svg";
+// import express from "../../../img/express-original.svg";
+// import nodejs from "../../../img/nodejs.svg";
+// import sequelize from "../../../img/sequelize.svg";
 
-import git from "../../../img/git.svg";
-import thunder from "../../../img/thunder.png";
+// import git from "../../../img/git.svg";
+// import thunder from "../../../img/thunder.png";
+
+import { Tool, Back, Front } from "./Tecnology";
 
 export default function About() {
   return (
@@ -32,8 +34,8 @@ export default function About() {
             viendo algún tipo de contenido relacionado con este mundo. <br />
             <br />
             Me oriento más hacia el Front-End y busco el conseguir más
-            experiencia y aprender nuevas tecnologías para mejorar
-            más en esta parte del mundo IT.
+            experiencia y aprender nuevas tecnologías para mejorar más en esta
+            parte del mundo IT.
           </span>
 
           <span className={css.text3}>
@@ -60,80 +62,32 @@ export default function About() {
           <span className={css.title}>Skills</span>
           <span className={css.text4}>Front-End</span>
           <section className={css.skills}>
-            <div className={css.tecnology}>
-              <img className={css.tecnologyImg} src={html} alt="HTML" />
-              <h5>HTML</h5>
-            </div>
-
-            <div className={css.tecnology}>
-              <img className={css.tecnologyImg} src={css3} alt="CSS" />
-              <h5>CSS</h5>
-            </div>
-
-            <div className={css.tecnology}>
-              <img
-                className={css.tecnologyImg}
-                src={javascript}
-                alt="JavaScript"
-              />
-              <h5>JavaScript</h5>
-            </div>
-
-            <div className={css.tecnology}>
-              <img className={css.tecnologyImg} src={react} alt="React" />
-              <h5>React</h5>
-            </div>
-
-            <div className={css.tecnology}>
-              <img className={css.tecnologyImg} src={redux} alt="Redux" />
-              <h5>Redux</h5>
-            </div>
-
-            <div className={css.tecnology}>
-              <img
-                className={css.tecnologyImg}
-                src={bootstrap}
-                alt="Bootstrap"
-              />
-              <h5>Bootstrap</h5>
-            </div>
+            {Front?.map((t) => (
+              <div className={css.tecnology}>
+                <img className={css.tecnologyImg} src={t.img} alt={t.name} />
+                <h5>{t.name}</h5>
+              </div>
+            ))}
           </section>
 
           <span className={css.text4}>Back-End</span>
           <section className={css.skills}>
-            <div className={css.tecnology}>
-              <img className={css.tecnologyImg} src={express} alt="Express" />
-              <h5>Express</h5>
-            </div>
-            <div className={css.tecnology}>
-              <img className={css.tecnologyImg} src={nodejs} alt="Node Js" />
-              <h5>Node Js</h5>
-            </div>
-            <div className={css.tecnology}>
-              <img
-                className={css.tecnologyImg}
-                src={sequelize}
-                alt="Sequelize"
-              />
-              <h5>Sequelize</h5>
-            </div>
+            {Back?.map((t) => (
+              <div className={css.tecnology}>
+                <img className={css.tecnologyImg} src={t.img} alt={t.name} />
+                <h5>{t.name}</h5>
+              </div>
+            ))}
           </section>
 
           <span className={css.text4}>Herramientas</span>
           <section className={css.skills}>
-            <div className={css.tecnology}>
-              <img className={css.tecnologyImg} src={git} alt="Git" />
-              <h5>Git</h5>
-            </div>
-
-            <div className={css.tecnology}>
-              <img
-                className={css.tecnologyImg}
-                src={thunder}
-                alt="Thunder client"
-              />
-              <h5>Thunder client</h5>
-            </div>
+            {Tool?.map((t) => (
+              <div className={css.tecnology}>
+                <img className={css.tecnologyImg} src={t.img} alt={t.name} />
+                <h5>{t.name}</h5>
+              </div>
+            ))}
           </section>
         </div>
       </section>
