@@ -12,32 +12,18 @@ export default function Proyectos() {
   return (
     <div id="Proyectos" className={css.Proyectos}>
       <h1>Proyectos</h1>
-
       <div className={css.containerProyectos}>
         <div className={css.card}>
           <section className={css.cardTop}>
             <img className={css.img} src={StarCards} />
             <div className={css.hover}>
               <section className={css.deploy}>
-                <a href=""></a>
-                <BsBoxArrowUpRight />
+                <a href="">
+                  <BsBoxArrowUpRight />
+                </a>
                 <a href="">
                   <BsGithub />
                 </a>
-              </section>
-              <section className={css.tecnology}>
-                <span>React</span>
-                <span>Redux</span>
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>NodeJs</span>
-                <span>Sequelize</span>
-                <span>PostgreSQL</span>
-                <span>Express</span>
-                <span>Socket.io</span>
-                <span>Passport</span>
-                <span>Firebase</span>
-                <span>+More</span>
               </section>
             </div>
           </section>
@@ -54,7 +40,9 @@ export default function Proyectos() {
         </div>
 
         <div className={css.card}>
-          <img className={css.img} src={Food} />
+          <section className={css.cardTop}>
+            <img className={css.img} src={Food} />
+          </section>
           <section>
             <span className={css.title}>Food</span>
             <span className={css.text}>
@@ -67,11 +55,33 @@ export default function Proyectos() {
           </section>
         </div>
 
-        <div className={css.card}>
+        {/* <div className={css.card}>
           <img className={css.img} src={Proximamente} />
           <section>
             <span className={css.title}>Próximamente</span>
-            {/* <span className={css.text}>Próximamente</span> */}
+          </section>
+        </div> */}
+
+        <div className={css.card}>
+          <section className={css.cardTop}>
+            <img className={css.img} src={Proximamente} />
+            <section className={css.tecnologys}>
+              <span>React</span>
+              <span>Redux</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>NodeJs</span>
+              <span>Sequelize</span>
+              <span>PostgreSQL</span>
+              <span>Express</span>
+              <span>Socket.io</span>
+              <span>Passport</span>
+              <span>Firebase</span>
+              <span>+More</span>
+            </section>
+          </section>
+          <section>
+            <span className={css.title}>Próximamente</span>
           </section>
         </div>
       </div>

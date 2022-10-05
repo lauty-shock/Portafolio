@@ -41,6 +41,7 @@
 }
 
 .cardTop {
+  display: flex;
   position: relative;
   height: 40%;
 }
@@ -55,20 +56,25 @@
 
 .hover {
   position: absolute;
-  /* background-color: aqua; */
+  /* background-color: greenyellow; */
   width: 100%;
+  height: 100%;
 }
 
-.tecnology {
+.deploy{
   display: flex;
-  flex-wrap: wrap;
+}
+
+.tecnologys {
+  display: flex;
   width: 100%;
   background-color: red;
+  height: 100%;
 }
 
-.tecnology span {
+.tecnologys span {
   background-color: aqua;
-  width: 100px;
+  width: 20%;
 }
 
 .title {
