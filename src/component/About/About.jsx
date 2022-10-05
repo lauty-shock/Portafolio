@@ -28,12 +28,12 @@ export default function About() {
           </span>
 
           <span className={css.text2}>
-            Soy un apasionado por el mundo de la programación, Siempre me gusto
-            la idea de poder crear páginas y juegos desde la comodidad de una
-            computadora. <br /> <br />
-            Me oriento más hacia el Front-End y busco el aprender nuevas
-            tecnologías y lenguajes para mejorar más y más en esta parte del
-            mundo IT.
+            Soy un apasionado por el mundo de la programación, siempre estoy
+            viendo algún tipo de contenido relacionado con este mundo. <br />
+            <br />
+            Me oriento más hacia el Front-End y busco el conseguir más
+            experiencia y aprender nuevas tecnologías para mejorar
+            más en esta parte del mundo IT.
           </span>
 
           <span className={css.text3}>
