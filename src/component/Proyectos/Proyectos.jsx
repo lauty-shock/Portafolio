@@ -17,14 +17,31 @@ export default function Proyectos() {
           <section className={css.cardTop}>
             <img className={css.img} src={StarCards} />
             <div className={css.hover}>
-              <section className={css.deploy}>
-                <a href="">
+              <div className={css.deploy}>
+                <a href="https://starcards.vercel.app/" target="_blank">
                   <BsBoxArrowUpRight />
                 </a>
-                <a href="">
+                <a
+                  href="https://github.com/4ldito/Henry-PG-StarCards"
+                  target="_blank"
+                >
                   <BsGithub />
                 </a>
-              </section>
+              </div>
+              <ul className={css.tecnologys}>
+                <li>React</li>
+                <li>Redux</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>NodeJs</li>
+                <li>Sequelize</li>
+                <li>PostgreSQL</li>
+                <li>Express</li>
+                <li>Socket.io</li>
+                <li>Passport</li>
+                <li>Firebase</li>
+                <li>+More</li>
+              </ul>
             </div>
           </section>
           <section>
@@ -42,6 +59,29 @@ export default function Proyectos() {
         <div className={css.card}>
           <section className={css.cardTop}>
             <img className={css.img} src={Food} />
+            <div className={css.hover}>
+              <div className={css.deploy}>
+                <a href="https://pi-food-pi.vercel.app/" target="_blank">
+                  <BsBoxArrowUpRight />
+                </a>
+                <a
+                  href="https://github.com/lauty-shock/PI-Food"
+                  target="_blank"
+                >
+                  <BsGithub />
+                </a>
+              </div>
+              <ul className={css.tecnologys}>
+                <li>React</li>
+                <li>Redux</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>NodeJs</li>
+                <li>Sequelize</li>
+                <li>PostgreSQL</li>
+                <li>Express</li>
+              </ul>
+            </div>
           </section>
           <section>
             <span className={css.title}>Food</span>
@@ -55,30 +95,9 @@ export default function Proyectos() {
           </section>
         </div>
 
-        {/* <div className={css.card}>
-          <img className={css.img} src={Proximamente} />
-          <section>
-            <span className={css.title}>Próximamente</span>
-          </section>
-        </div> */}
-
         <div className={css.card}>
           <section className={css.cardTop}>
             <img className={css.img} src={Proximamente} />
-            <section className={css.tecnologys}>
-              <span>React</span>
-              <span>Redux</span>
-              <span>HTML5</span>
-              <span>CSS3</span>
-              <span>NodeJs</span>
-              <span>Sequelize</span>
-              <span>PostgreSQL</span>
-              <span>Express</span>
-              <span>Socket.io</span>
-              <span>Passport</span>
-              <span>Firebase</span>
-              <span>+More</span>
-            </section>
           </section>
           <section>
             <span className={css.title}>Próximamente</span>

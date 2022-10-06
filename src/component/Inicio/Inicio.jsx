@@ -23,9 +23,9 @@ export default function Inicio() {
             <Cursor />
           </span>
         </section>
-        <button className={css.btn}>
-          <a href="#About">Más sobre mi</a>
-        </button>
+        <a className={css.btn} href="#About">
+          Más sobre mi
+        </a>
       </section>
       <section className={css.contac}>
         <a

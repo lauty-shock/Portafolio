@@ -100,6 +100,7 @@
   margin-right: auto;
 
   transition: all 0.3s;
+  user-select: none;
 }
 
 .cv:hover {
@@ -112,6 +113,7 @@
   flex-wrap: wrap;
 
   gap: 0.84rem;
+  user-select: none;
 }
 
 .tecnology {

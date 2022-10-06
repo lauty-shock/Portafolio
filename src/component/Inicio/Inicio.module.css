@@ -52,10 +52,16 @@
   position: absolute;
   bottom: 10%;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: black;
   color: white;
   border-radius: 10px;
   border: 1px solid rgb(255, 100, 100);
+  text-decoration: none;
+  user-select: none;
 
   box-shadow: inset 0 0 5px rgb(255, 0, 0), 0 0 15px rgb(255, 0, 0);
 
@@ -65,11 +71,6 @@
   cursor: pointer;
 
   transition: all 0.3s;
-}
-
-.btn a {
-  color: white;
-  text-decoration: none;
 }
 
 .btn:hover {
