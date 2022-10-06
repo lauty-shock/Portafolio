@@ -1,14 +1,40 @@
-export default Proyect = [
-  {
+const Proyect = [
+  { name: "StarCards",
     img: "../../../img/StarCards.png",
-    name: "StarCards",
+    text: "Proyecto desarrollado en grupo de 7 personas. Es un juego web de cartas basado en el mundo Starcraft, consta de su propio sistema de monetización y e-commerce incorporado. Puedes chatear con tus amigos en un chat tanto público como privado, coleccionar cartas o vender las que no te gusten, crear tus propios mazos ¡y mucho más!",
+    tecnologys: [
+      "React",
+      "Redux",
+      "HTML5",
+      "CSS3",
+      "NodeJs",
+      "Sequelize",
+      "PostgreSQL",
+      "Express",
+      "Socket.oi",
+      "Passport",
+      "Firebase",
+      "+Más",
+    ],
+    github: "https://github.com/4ldito/Henry-PG-StarCards",
+    deploy: "https://starcards.vercel.app/",
   },
-  {
+  { name: "Food",
     img: "../../../img/Food.png",
-    name: "Food",
-  },
-  {
-    img: "../../../img/Proximamente.jpg",
-    name: "Proximamente",
+    text: "Blog de comidas donde podras encontrar recetas de todos los tipos de dietas, filtrar por los puntos de salud, dietas y orden alfabetico, también cuenta con un buscador de comidas y un formulario para que puedas agregar tu propia receta ¿Qué comerás esta vez?",
+    tecnologys: [
+      "React",
+      "Redux",
+      "HTML5",
+      "CSS3",
+      "NodeJs",
+      "Sequelize",
+      "PostgreSQL",
+      "Express",
+    ],
+    github: "https://github.com/lauty-shock/PI-Food",
+    deploy: "https://pi-food-pi.vercel.app/",
   },
 ];
+
+export default Proyect;
