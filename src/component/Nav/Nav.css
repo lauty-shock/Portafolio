@@ -1,7 +1,7 @@
 .Navbar {
   height: 60px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   background: black;
 
@@ -16,11 +16,12 @@
 }
 
 .Navbar > .nav-logo {
-  /* width: 50px; */
-  /* height: 50px; */
+  width: 100px;
+  height: 35px;
+}
 
-  color: white;
-  font-size: 1.3rem;
+.Navbar > .nav-items {
+  margin: auto;
 }
 
 .Navbar > .nav-items > a {
@@ -53,7 +54,7 @@
 .Navbar > .nav-toggle {
   visibility: hidden;
 
-  width: 50px;
+  width: 100px;
   height: 50px;
 }
 
@@ -96,6 +97,8 @@
     height: 50px;
 
     cursor: pointer;
+
+    margin-left: auto;
   }
 
   .nav-toggle > .bar {

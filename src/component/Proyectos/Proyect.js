@@ -1,6 +1,6 @@
 const Proyect = [
   { name: "StarCards",
-    img: "../../../img/StarCards.png",
+    img: "../../../img/StarCards.jpg",
     text: "Proyecto desarrollado en grupo de 7 personas. Es un juego web de cartas basado en el mundo Starcraft, consta de su propio sistema de monetización y e-commerce incorporado. Puedes chatear con tus amigos en un chat tanto público como privado, coleccionar cartas o vender las que no te gusten, crear tus propios mazos ¡y mucho más!",
     tecnologys: [
       "React",
@@ -20,7 +20,7 @@ const Proyect = [
     deploy: "https://starcards.vercel.app/",
   },
   { name: "Food",
-    img: "../../../img/Food.png",
+    img: "../../../img/Food.jpg",
     text: "Blog de comidas donde podras encontrar recetas de todos los tipos de dietas, filtrar por los puntos de salud, dietas y orden alfabetico, también cuenta con un buscador de comidas y un formulario para que puedas agregar tu propia receta ¿Qué comerás esta vez?",
     tecnologys: [
       "React",

@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import logo from "../../../img/logo-no.svg";
+import logo from "../../../img/Shock-logo.svg";
 import "./Nav.css";
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
-      {/* <img className="nav-logo" src={logo} alt="Logo" /> */}
-      <span className="nav-logo">SHOCK</span>
+      <img className="nav-logo" src={logo} alt="Logo" />
 
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="#Inicio">Inicio</a>

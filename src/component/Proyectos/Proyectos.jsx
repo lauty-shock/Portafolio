@@ -17,7 +17,7 @@ export default function Proyectos() {
       <div className={css.containerProyectos}>
         {Proyect?.map((proyecto) => (
           <div className={css.card}>
-            <section className={css.cardTop}>
+            <div className={css.cardTop}>
               <img className={css.img} src={proyecto.img} />
               <div className={css.hover}>
                 <div className={css.deploy}>
@@ -34,7 +34,7 @@ export default function Proyectos() {
                   ))}
                 </div>
               </div>
-            </section>
+            </div>
             <section>
               <span className={css.title}>{proyecto.name}</span>
               <span className={css.text}>{proyecto.text}</span>
