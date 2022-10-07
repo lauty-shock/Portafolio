@@ -1,6 +1,6 @@
 export const Front = [
   {
-    img: "../../../img/html.svg",
+    img: "img/html.svg",
     name: "HTML5",
   },
   {

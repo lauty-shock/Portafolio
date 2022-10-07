@@ -6,7 +6,7 @@ import { BsGithub, BsBoxArrowUpRight } from "react-icons/bs";
 
 import Proyect from "./Proyect.js";
 
-import Proximamente from "../../../img/Proximamente.jpg";
+import Proximamente from "../../../public/img/Proximamente.jpg";
 
 export default function Proyectos() {
   return (

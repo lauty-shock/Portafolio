@@ -2,12 +2,12 @@ import React from "react";
 
 import css from "./About.module.css";
 
-import html from "../../../img/html.svg";
-import css3 from "../../../img/css.svg";
-import javascript from "../../../img/javascript.svg";
-import react from "../../../img/react.svg";
-import redux from "../../../img/redux.svg";
-import bootstrap from "../../../img/bootstrap.svg";
+// import html from "../../../img/html.svg";
+// import css3 from "../../../img/css.svg";
+// import javascript from "../../../img/javascript.svg";
+// import react from "../../../img/react.svg";
+// import redux from "../../../img/redux.svg";
+// import bootstrap from "../../../img/bootstrap.svg";
 
 // import express from "../../../img/express-original.svg";
 // import nodejs from "../../../img/nodejs.svg";

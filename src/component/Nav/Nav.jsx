@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../../img/Shock-logo.svg";
+import logo from "../../../public/img/Shock-logo.svg";
 import "./Nav.css";
 
 export default function Nav() {
