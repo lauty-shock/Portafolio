@@ -62,8 +62,8 @@ export default function About() {
           <span className={css.title}>Skills</span>
           <span className={css.text4}>Front-End</span>
           <section className={css.skills}>
-            {Front?.map((t) => (
-              <div className={css.tecnology}>
+            {Front?.map((t, index) => (
+              <div key={index} className={css.tecnology}>
                 <img className={css.tecnologyImg} src={t.img} alt={t.name} />
                 <h5>{t.name}</h5>
               </div>
@@ -72,8 +72,8 @@ export default function About() {
 
           <span className={css.text4}>Back-End</span>
           <section className={css.skills}>
-            {Back?.map((t) => (
-              <div className={css.tecnology}>
+            {Back?.map((t, index) => (
+              <div key={index} className={css.tecnology}>
                 <img className={css.tecnologyImg} src={t.img} alt={t.name} />
                 <h5>{t.name}</h5>
               </div>
@@ -82,8 +82,8 @@ export default function About() {
 
           <span className={css.text4}>Herramientas</span>
           <section className={css.skills}>
-            {Tool?.map((t) => (
-              <div className={css.tecnology}>
+            {Tool?.map((t, index) => (
+              <div key={index} className={css.tecnology}>
                 <img className={css.tecnologyImg} src={t.img} alt={t.name} />
                 <h5>{t.name}</h5>
               </div>

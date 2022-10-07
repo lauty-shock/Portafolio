@@ -6,8 +6,6 @@ import { BsGithub, BsBoxArrowUpRight } from "react-icons/bs";
 
 import Proyect from "./Proyect.js";
 
-import StarCards from "../../../img/StarCards.png";
-import Food from "../../../img/Food.png";
 import Proximamente from "../../../img/Proximamente.jpg";
 
 export default function Proyectos() {
@@ -15,8 +13,8 @@ export default function Proyectos() {
     <div id="Proyectos" className={css.Proyectos}>
       <h1>Proyectos</h1>
       <div className={css.containerProyectos}>
-        {Proyect?.map((proyecto) => (
-          <div className={css.card}>
+        {Proyect?.map((proyecto, index) => (
+          <div key={index} className={css.card}>
             <div className={css.cardTop}>
               <img className={css.img} src={proyecto.img} />
               <div className={css.hover}>
@@ -29,8 +27,8 @@ export default function Proyectos() {
                   </a>
                 </div>
                 <div className={css.tecnologys}>
-                  {proyecto.tecnologys.map((t) => (
-                    <p>{t}</p>
+                  {proyecto.tecnologys.map((t, index) => (
+                    <p key={index}>{t}</p>
                   ))}
                 </div>
               </div>
