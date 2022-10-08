@@ -219,4 +219,8 @@
   .tecnology:hover {
     transform: scale(1);
   }
+
+  .tecnology:hover h5 {
+    transform: translateY(0px);
+  }
 }

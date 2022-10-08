@@ -15,7 +15,7 @@
   padding: 0 15px;
 }
 
-.Navbar > .nav-logo {
+.Navbar > a > .nav-logo {
   width: 100px;
   height: 60px;
 }
@@ -148,5 +148,9 @@
 
   .nav-toggle.open > .bar::after {
     transform: rotate(-45deg) translate(26px, 26px);
+  }
+
+  .Navbar > .nav-items > a:hover::before {
+    width: 0px;
   }
 }
