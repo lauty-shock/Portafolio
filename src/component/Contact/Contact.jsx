@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
+import swal from "sweetalert";
 
 import css from "./Contact.module.css";
 
@@ -19,13 +20,31 @@ export default function Contact() {
   }
 
   function submit() {
-    axios.post("https://submit-form.com/nT4t6IoQ", input);
+    if (!input.email) {
+      swal(" ¡Error! ", " Por favor complete con un email valido ", "error");
+    } else if (!input.name) {
+      swal(" ¡Error! ", " Por favor complete con su nombre ", "error");
+    } else if (!input.mensaje) {
+      swal(
+        " ¡Error! ",
+        " Por favor complete con la razón de su comunicado ",
+        "error"
+      );
+    } else {
+      // axios.post("https://submit-form.com/nT4t6IoQ", input);
 
-    setInput({
-      email: "",
-      name: "",
-      mensaje: "",
-    });
+      setInput({
+        email: "",
+        name: "",
+        mensaje: "",
+      });
+
+      swal(
+        " ¡Aprecio su interes! ",
+        " ¡Me comunicaré a la brevedad! ",
+        "success"
+      );
+    }
   }
   return (
     <div id="Contacto" className={css.container}>
