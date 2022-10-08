@@ -21,7 +21,6 @@ export default function Contact() {
 
   function submit() {
     if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$/.test(input.email)) {
-      // swal(" ¡Error! ", " Por favor complete con un email valido ", "error");
       Swal.fire({
         background: "black",
         color: "white",
@@ -49,7 +48,7 @@ export default function Contact() {
         timer: 3000,
       });
     } else {
-      // axios.post("https://submit-form.com/nT4t6IoQ", input);
+      axios.post("https://submit-form.com/nT4t6IoQ", input);
 
       setInput({
         email: "",
