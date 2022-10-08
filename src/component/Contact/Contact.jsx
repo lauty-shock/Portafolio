@@ -20,18 +20,18 @@ export default function Contact() {
   }
 
   function submit() {
-    if (!input.email) {
+    if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$/.test(input.email)) {
       swal(" ¡Error! ", " Por favor complete con un email valido ", "error");
-    } else if (!input.name) {
+    } else if (!input.name || input.name.length < 4) {
       swal(" ¡Error! ", " Por favor complete con su nombre ", "error");
-    } else if (!input.mensaje) {
+    } else if (input.mensaje.length < 8) {
       swal(
         " ¡Error! ",
         " Por favor complete con la razón de su comunicado ",
         "error"
       );
     } else {
-      // axios.post("https://submit-form.com/nT4t6IoQ", input);
+      axios.post("https://submit-form.com/nT4t6IoQ", input);
 
       setInput({
         email: "",
