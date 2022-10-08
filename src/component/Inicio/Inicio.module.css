@@ -127,10 +127,11 @@
 @media (max-width: 830px) {
   .border {
     margin-bottom: 6%;
+    width: 90vw;
   }
 }
 
-@media (max-width: 716px) {
+/* @media (max-width: 716px) {
   .containerName { 
     margin-top: 12vh;
   }
@@ -152,14 +153,14 @@
   .btnContac {
     font-size: 1.5rem;
   }
-}
+} */
 
-@media (max-width: 420px) {
+@media (max-width: 477px) {
   .name {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .servicios {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -169,11 +170,53 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 423px) {
   .name {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .servicios {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 369px) {
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .servicios {
+    font-size: 1.2rem;
+  }
+
+  .btnContac {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 369px) {
+  .name {
+    font-size: 2.2rem;
+  }
+
+  .servicios {
+    font-size: 1.2rem;
+  }
+
+  .btnContac {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 281px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .servicios {
+    font-size: 1.2rem;
+  }
+
+  .btnContac {
+    font-size: 1.8rem;
   }
 }
