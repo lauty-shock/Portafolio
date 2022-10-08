@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
-import swal from "sweetalert";
+import Swal from "sweetalert2";
 
 import css from "./Contact.module.css";
 
@@ -21,17 +21,35 @@ export default function Contact() {
 
   function submit() {
     if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$/.test(input.email)) {
-      swal(" ¡Error! ", " Por favor complete con un email valido ", "error");
+      // swal(" ¡Error! ", " Por favor complete con un email valido ", "error");
+      Swal.fire({
+        background: "black",
+        color: "white",
+        title: "¡Error!",
+        text: "Por favor complete con un email valido",
+        icon: "error",
+        timer: 3000,
+      });
     } else if (!input.name || input.name.length < 4) {
-      swal(" ¡Error! ", " Por favor complete con su nombre ", "error");
+      Swal.fire({
+        background: "black",
+        color: "white",
+        title: "¡Error!",
+        text: "Por favor complete con su nombre",
+        icon: "error",
+        timer: 3000,
+      });
     } else if (input.mensaje.length < 8) {
-      swal(
-        " ¡Error! ",
-        " Por favor complete con la razón de su comunicado ",
-        "error"
-      );
+      Swal.fire({
+        background: "black",
+        color: "white",
+        title: "¡Error!",
+        text: "Por favor complete con la razón de su comunicado",
+        icon: "error",
+        timer: 3000,
+      });
     } else {
-      axios.post("https://submit-form.com/nT4t6IoQ", input);
+      // axios.post("https://submit-form.com/nT4t6IoQ", input);
 
       setInput({
         email: "",
@@ -39,11 +57,15 @@ export default function Contact() {
         mensaje: "",
       });
 
-      swal(
-        " ¡Aprecio su interes! ",
-        " ¡Me comunicaré a la brevedad! ",
-        "success"
-      );
+      Swal.fire({
+        background: "rgb(100, 100, 100)",
+        color: "white",
+        title: "¡Aprecio su interes!",
+        text: "¡Me comunicaré a la brevedad!",
+        icon: "success",
+        timer: 4000,
+        timerProgressBar: true,
+      });
     }
   }
   return (
