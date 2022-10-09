@@ -22,8 +22,9 @@ export default function Contact() {
   function submit() {
     if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$/.test(input.email)) {
       Swal.fire({
-        background: "black",
-        color: "white",
+        // background: "black",
+        border: "2px solid blue",
+        // color: "white",
         title: "¡Error!",
         text: "Por favor complete con un email valido",
         icon: "error",
