@@ -37,7 +37,7 @@ export default function About() {
 
           <a
             className={css.cv}
-            href="CV-Lautaro-Perez.pdf"
+            href="CV-Lautaro-Cesar-Perez.pdf"
             download
           >
             Descargar CV
