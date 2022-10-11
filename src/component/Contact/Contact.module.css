@@ -32,9 +32,11 @@
   flex-direction: column;
   align-items: center;
 
-  border: 2px solid rgb(255, 100, 100);
+  background-color: black;
+
+  border: 3px solid rgb(255, 85, 85);
   border-radius: 10px;
-  box-shadow: inset 0 0 15px red, 0 0 45px red;
+  box-shadow: 0 0 45px red;
 
   min-width: 500px;
   height: auto;
@@ -68,12 +70,13 @@
 }
 
 .submit {
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
+  background-color: black;
 
-  border: 2px solid rgb(255, 100, 100);
+  border: 2px solid rgb(255, 85, 85);
   border-radius: 10px;
   box-shadow: inset 0 0 5px red, 0 0 15px red;
+
+  color: white;
 
   width: 150px;
   height: 30px;

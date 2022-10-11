@@ -23,6 +23,7 @@
 
 :root {
   /* background-color: #161a1d; */
-  background-color: black;
+  background-image: url(../public/img/Background-01.svg);
+  /* filter: brightness(0.5); */
   /* overflow-x: hidden; */
 }
