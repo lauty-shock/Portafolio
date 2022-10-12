@@ -19,7 +19,7 @@ const Proyect = [
     github: "https://github.com/4ldito/Henry-PG-StarCards",
     deploy: "https://starcards.vercel.app/",
   },
-  { name: "Food",
+  { name: "Recipe book",
     img: "../../../img/Food.jpg",
     text: "Blog de comidas donde podras encontrar recetas de todos los tipos de dietas, filtrar por los puntos de salud, dietas y orden alfabetico, también cuenta con un buscador de comidas y un formulario para que puedas agregar tu propia receta ¿Qué comerás esta vez?",
     tecnologys: [

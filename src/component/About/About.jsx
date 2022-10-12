@@ -25,9 +25,6 @@ export default function About() {
           </span>
 
           <span className={css.text3}>
-            <span>Edad:</span> 19
-          </span>
-          <span className={css.text3}>
             <span>Hobbies:</span> básquetbol, programación y viajar, entre
             otros.
           </span>

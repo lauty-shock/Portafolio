@@ -39,15 +39,6 @@ export default function Proyectos() {
             </section>
           </div>
         ))}
-
-        <div className={css.card}>
-          <section className={css.cardTop}>
-            <img className={css.img} src={Proximamente} />
-          </section>
-          <section>
-            <span className={css.title}>Próximamente</span>
-          </section>
-        </div>
       </div>
     </div>
   );
