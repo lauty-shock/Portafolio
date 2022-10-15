@@ -31,8 +31,8 @@
   border-radius: 10px;
   box-shadow: 0 0 45px red;
 
-  width: 25%;
-  height: 70vh;
+  width: 30%;
+  height: 60vh;
 
   margin-top: 3vh;
 }
@@ -45,13 +45,13 @@
   display: flex;
   flex-direction: column;
 
-  height: 60%;
+  height: 50%;
 }
 
 .cardTop {
   display: flex;
   position: relative;
-  height: 40%;
+  height: 50%;
 }
 
 .img {
@@ -144,7 +144,7 @@
   }
 
   .card {
-    width: 45vw;
+    width: 40%;
     height: 50vh;
   }
 }
