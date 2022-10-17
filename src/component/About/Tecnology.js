@@ -49,4 +49,8 @@ export const Tool = [
     img: "img/thunder.png",
     name: "Thunder Client",
   },
+  {
+    img: "img/trello.svg",
+    name: "Trello",
+  },
 ];
