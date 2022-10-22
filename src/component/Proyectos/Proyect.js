@@ -31,6 +31,7 @@ const Proyect = [
       "Sequelize",
       "PostgreSQL",
       "Express",
+      "API Rest",
     ],
     github: "https://github.com/lauty-shock/PI-Food",
     deploy: "https://pi-food-pi.vercel.app/",
