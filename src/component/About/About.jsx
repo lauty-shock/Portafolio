@@ -14,16 +14,20 @@ export default function About() {
           <span className={css.text1}>
             ¡Hola Mundo! Mi nombre es Lautaro Perez y soy FullStack developer
           </span>
-
           <span className={css.text2}>
-            Soy un apasionado por el mundo de la programación, siempre estoy
-            viendo algún tipo de contenido relacionado con este mundo. <br />
+            Soy un apasionado por el mundo de la programación, lo que me lleva a
+            siempre estar buscando nuevos desafíos
             <br />
-            Me oriento más hacia el Front-End y busco el conseguir más
-            experiencia y aprender nuevas tecnologías para mejorar más en esta
-            parte del mundo IT.
+            <br />
+            Estoy interesado en incorporarme en un ambiente de trabajo donde
+            pueda aportar valor con mis conocimientos dentro del área del
+            desarrollo y poder continuar profundizando todo lo que he aprendido.
+            <br />
+            <br />
+            Tengo experiencia trabajando y aprendiendo nuevas tecnologías en
+            equipo, aplicando metodologías agiles y desarrollando aplicaciones
+            desde cero.
           </span>
-
           <span className={css.text3}>
             <span>Hobbies:</span> básquetbol, programación y viajar, entre
             otros.
@@ -31,12 +35,7 @@ export default function About() {
           <span className={css.text3}>
             <span>Desde:</span> Córdoba, Argentina
           </span>
-
-          <a
-            className={css.cv}
-            href="CV-Lautaro-Cesar-Perez.pdf"
-            download
-          >
+          <a className={css.cv} href="CV-Lautaro-Cesar-Perez.pdf" download>
             Descargar CV
           </a>
         </div>
