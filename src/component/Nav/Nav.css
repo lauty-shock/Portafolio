@@ -3,7 +3,7 @@
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.1);
 
   position: fixed;
   top: 0;
@@ -13,6 +13,7 @@
   width: 100vw;
 
   padding: 0 15px;
+  backdrop-filter: blur(5px);
 }
 
 .Navbar > a > .nav-logo {
