@@ -20,8 +20,8 @@ const Proyect = [
     deploy: "https://starcards.vercel.app/",
   },
   { name: "Recipe book",
-    img: "../../../img/Food.jpg",
-    text: "Blog de comidas donde podras encontrar recetas de todos los tipos de dietas, filtrar por los puntos de salud, dietas y orden alfabetico, también cuenta con un buscador de comidas y un formulario para que puedas agregar tu propia receta ¿Qué comerás esta vez?",
+    img: "../../../img/Food.png",
+    text: "Blog de comidas donde podras encontrar recetas de todos los tipos de dietas, filtrar por los puntos de salud, dietas y ordenar alfabeticamente, también cuenta con un buscador de comidas y un formulario para que puedas agregar tu propia receta ¿Qué comerás esta vez?",
     tecnologys: [
       "React",
       "Redux",
