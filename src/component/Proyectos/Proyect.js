@@ -33,7 +33,7 @@ const Proyect = [
       "Express",
       "API Rest",
     ],
-    github: "https://github.com/lauty-shock/PI-Food",
+    github: "https://recipe-book-pi.vercel.app/",
     deploy: "https://pi-food-pi.vercel.app/",
   },
 ];
